@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex; /* This command makes sure that all the content in this tag appears in the same line */
+    justify-content: center;
+    justify-content: space-between;
+}
+ 
+nav img:hover{
+    cursor: pointer;
+}
+nav input{
+    width: 320px;
+    height: 40px;
+    outline: none;
+}
+nav input:focus{
+    background-color: rgb(167, 218, 201);
+}
+nav p:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.catalogue{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.catalogue p:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.main .text{
+    width: 350px;
+    background-color: bisque;
+
+}
+
+.main .text h1{
+    font-size: 44px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.main .text .txt{
+    justify-content: center;
+}
+
+
+.text .txt .h3{
+    margin-inline: 11px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.main .text button{
+    width: 335px;
+    height: 28px;
+    background-color: rgb(158, 233, 208);
+    color: brown;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.main .text button:hover{
+    background-color: aquamarine;
+    border: 3px solid palegoldenrod;
+}
+
+.discounts h1{
+    text-align: center;
+    margin-top: 44px;
+    padding: 22px;
+}
+
+.discounts .fs{
+    display: flex;
+    justify-content: center;
+    margin-left:76px;
+    width: 1125px;
+}
+
+.discounts .fs:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.discounts .fs1{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+.discount .fs1{
+    width: 600px;
+    background-color: pink;
+}
+
+.discounts .fs1 h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.otherprod{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.otherprod{
+    margin:33px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 33px;
+}
+
+h4{
+    text-align: center;
+}
+
+.crd{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.crd .image{
+    border: 1px solid gray;
+}
+
+.crd .image:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.crd .image image{
+    width: 22%;
+}
+
+.footer .list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+}
+
+.footer .list:hover{
+    cursor: pointer;
+}
